@@ -17,7 +17,6 @@ test("displays the dog image after fetching", async () => {
   expect(img.src).toBe(
     "https://images.dog.ceo/breeds/bulldog-english/mami.jpg"
   );
-});
 
 test("displays a loading message before fetching", async () => {
   render(<App />);
